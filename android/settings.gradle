@@ -1,0 +1,3 @@
+rootProject.name = 'ReactNativeReduxCasts_Manager'
+
+include ':app'
