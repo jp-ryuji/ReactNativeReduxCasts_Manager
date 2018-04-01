@@ -5,6 +5,7 @@ import firebase from 'firebase';
 import ReduxThunk from 'redux-thunk';
 import reducers from './reducers';
 import LoginForm from './components/LoginForm';
+import Router from './Router';
 
 class App extends Component {
   componentWillMount() {
@@ -27,7 +28,7 @@ class App extends Component {
       // NOTE: The provider tag is what connects to all those different connect tags that we scatter about our application.
       // And the provider tag makes sure that all those connect tags can get access to the store, grab out redux state and then pass it off to the individual components.
       <Provider store={store}>
-        <LoginForm />
+        <Router />
       </Provider>
     );
   }

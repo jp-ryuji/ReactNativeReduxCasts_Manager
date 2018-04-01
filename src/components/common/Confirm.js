@@ -40,6 +40,7 @@ const styles = {
     lineHeight: 40
   },
   containerStyle: {
+    // NOTE: 0, 0, 0 means blank, and 0.75 is opacity.
     backgroundColor: 'rgba(0, 0, 0, 0.75)',
     position: 'relative',
     flex: 1,

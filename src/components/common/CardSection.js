@@ -3,6 +3,7 @@ import { View } from 'react-native';
 
 const CardSection = (props) => {
   return (
+    // NOTE: {[<former>, <latter>]} The former one overwrites the latter one.
     <View style={[styles.containerStyle, props.style]}>
       {props.children}
     </View>
